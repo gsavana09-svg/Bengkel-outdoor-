@@ -2,55 +2,68 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bengkel Outdoor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bengkel Outdoor — Servis & Modifikasi Peralatan Outdoor</title>
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #0f172a, #020617);
       color: #e5e7eb;
     }
     header {
-      background: #020617;
-      padding: 20px;
       text-align: center;
+      padding: 48px 20px 32px;
     }
     header h1 {
       margin: 0;
-      font-size: 28px;
-      letter-spacing: 1px;
+      font-size: 36px;
+      letter-spacing: 0.5px;
     }
     header p {
-      margin: 8px 0 0;
-      color: #94a3b8;
+      margin-top: 10px;
+      color: #cbd5f5;
+      font-size: 16px;
     }
-    section {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 16px 60px;
     }
     .card {
-      background: #020617;
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 16px;
+      background: rgba(2, 6, 23, 0.8);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     }
-    .btn {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 10px 16px;
-      background: #22c55e;
-      color: #052e16;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
+    .card h2 {
+      margin-top: 0;
+      font-size: 24px;
+      border-bottom: 1px solid rgba(148,163,184,0.2);
+      padding-bottom: 8px;
+    }
+    ul {
+      padding-left: 20px;
     }
     footer {
       text-align: center;
-      padding: 20px;
-      color: #64748b;
+      padding: 24px 16px;
+      color: #94a3b8;
       font-size: 14px;
+    }
+    .contact {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .contact a {
+      color: #93c5fd;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .contact a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -61,12 +74,15 @@
     <p>Servis & Modifikasi Peralatan Outdoor</p>
   </header>
 
-  <section>
+  <div class="container">
+
     <div class="card">
       <h2>Tentang Kami</h2>
       <p>
-        Bengkel Outdoor melayani servis dan modifikasi peralatan outdoor dengan fokus utama pada tas (70%), tenda (10%), dan perlengkapan lainnya (20%).
-        Kami melayani pendaki pemula hingga profesional, baik dari dalam maupun luar kota.
+        Bengkel Outdoor melayani servis dan modifikasi peralatan outdoor dengan fokus utama pada tas (70%),
+        tenda (10%), dan perlengkapan lainnya (20%). Kami melayani pendaki pemula hingga profesional,
+        baik dari dalam maupun luar kota. Kami mengutamakan kerapian, kekuatan, dan fungsi agar perlengkapan
+        kamu kembali siap dipakai berpetualang.
       </p>
     </div>
 
@@ -78,19 +94,3 @@
         <li>Servis dan modifikasi tenda</li>
         <li>Perbaikan perlengkapan outdoor lainnya</li>
       </ul>
-    </div>
-
-    <div class="card">
-      <h2>Kontak</h2>
-      <p>📱 WhatsApp: 08xxxxxxxxxx</p>
-      <p>📷 Instagram: @bengkeloutdoor</p>
-      <a class="btn" href="https://wa.me/62xxxxxxxxxx" target="_blank">Hubungi via WhatsApp</a>
-    </div>
-  </section>
-
-  <footer>
-    © 2026 Bengkel Outdoor — Workshop Servis Peralatan Outdoor
-  </footer>
-
-</body>
-</html>
